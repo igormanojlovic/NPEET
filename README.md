@@ -1,7 +1,7 @@
-NPEET
-=====
+# NPEET: Non-Parametric Entropy Estimation Toolbox
 
-Non-parametric Entropy Estimation Toolbox
+[![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)](LICENSE)
+[![python](https://img.shields.io/badge/python-3.8+-blue.svg)](https://www.python.org/)
 
 This package contains Python code implementing several entropy estimation functions for both discrete and continuous variables. Information theory provides a model-free way find structure in complex systems, but difficulties in estimating these quantities has traditionally made these techniques infeasible. This package attempts to allay these difficulties by making modern state-of-the-art entropy estimation methods accessible in a single easy-to-use python library.
 
@@ -12,11 +12,7 @@ It includes description of functions, references, implementation details, and te
 
 Example installation and usage:
 
-```bash
-git clone https://github.com/gregversteeg/NPEET.git
-cd NPEET
-pip install .
-```
+```pip install git+https://github.com/igormanojlovic/NPEET```
 
 ```python
 >>> from npeet import entropy_estimators as ee
